@@ -17,8 +17,7 @@ module.exports = class Stack {
     this.stack = stack;
   }
 
-  push(e) {
-    // throw new NotImplementedError('Not implemented');
+  push(e) {    
     this.stack.push(e);
   }
 
